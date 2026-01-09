@@ -1,1 +1,4 @@
+CAN-Based-ECU-HIL-Testbench
+
+
 This project demonstrates a CAN-based automotive ECU implemented on an ESP32 and validated using a PC-based HIL-style testbench. The ECU processes CAN commands, reports status frames, handles fault conditions, and exposes internal state via CAN, OLED, and LED indicators, simulating real automotive ECU testing workflows.
