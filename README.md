@@ -1,4 +1,4 @@
-# CAN-Based Embedded ECU Prototype
+# CAN-Based Embedded ECU Prototype (HIL workbench prototype)
 
 ## 📌 Project Overview
 
