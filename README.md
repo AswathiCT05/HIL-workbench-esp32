@@ -162,6 +162,6 @@ CAN bus speed and GPIO pins can be configured in [src/main.cpp](src/main.cpp).
 
 ---
 
-**Author:** Saikiran
+**Author:** Aswathi Chittiyam Veettil Thankan
 **Date:** January 2026  
 **License:** MIT
