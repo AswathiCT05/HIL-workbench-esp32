@@ -1,6 +1,6 @@
 # CAN-Based Embedded ECU Prototype (HIL workbench prototype)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project implements a CAN-based embedded ECU prototype using an ESP32 to simulate a reverse assist system, inspired by automotive HIL (Hardware-in-the-Loop) testing principles.
 
@@ -10,7 +10,7 @@ The ECU communicates over CAN with a PC-based test node (Laptop + CANable v2.0),
 ![Image](BLOCK_DIAGRAM.jpg )
 
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - Design a CAN-enabled ECU using ESP32 and an external CAN transceiver
 - Simulate reverse assist logic controlled via CAN commands
@@ -19,7 +19,7 @@ The ECU communicates over CAN with a PC-based test node (Laptop + CANable v2.0),
 - Validate ECU behavior using PC-based CAN tools (SavvyCAN / Cangaroo)
 - Apply HIL-style testing concepts at signal level
 
-## 🧠 System Concept
+##  System Concept
 
 - **ESP32** acts as the ECU
 - **Laptop + CANable v2.0** acts as the test controller / second ECU
@@ -30,7 +30,7 @@ The ECU communicates over CAN with a PC-based test node (Laptop + CANable v2.0),
   - OLED display (HMI)
   - Status LED (warning indication)
 
-## 🧩 Hardware Components Used
+##  Hardware Components Used
 
 - ESP32 Dev Module
 - SN65HVD230 CAN Transceiver Module
@@ -40,7 +40,7 @@ The ECU communicates over CAN with a PC-based test node (Laptop + CANable v2.0),
 - LED + 220Ω resistor (Reverse indicator)
 - Laptop (for CAN testing & monitoring)
 
-## 🔌 Connection Details
+##  Connection Details
 
 ### ESP32 ↔ CAN Transceiver (SN65HVD230)
 
@@ -116,7 +116,7 @@ The ECU communicates over CAN with a PC-based test node (Laptop + CANable v2.0),
 |        | 4    | Reverse active |
 |        | 5    | Forced fault   |
 
-## 🖥 OLED Display Behavior
+##  OLED Display Behavior
 
 ### Normal Mode
 - ECU status
@@ -129,7 +129,7 @@ The ECU communicates over CAN with a PC-based test node (Laptop + CANable v2.0),
 - Temperature & humidity displayed as secondary info
 - LED blinks faster as distance decreases
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - PlatformIO installed in VS Code
@@ -148,7 +148,7 @@ pio run --target upload
 pio device monitor
 ```
 
-## 📝 Testing
+##  Testing
 
 1. Connect the CANable v2.0 to your PC
 2. Open your CAN monitoring tool
@@ -156,7 +156,7 @@ pio device monitor
 4. Monitor ECU status on `0x100`
 5. Observe OLED display and LED behavior
 
-## 🔧 Configuration
+##  Configuration
 
 CAN bus speed and GPIO pins can be configured in [src/main.cpp](src/main.cpp).
 
