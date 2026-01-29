@@ -87,7 +87,7 @@ The ECU communicates over CAN with a PC-based test node (Laptop + CANable v2.0),
 | Anode (+)    | GPIO 25 (via 220Ω resistor) |
 | Cathode (−)  | GND                          |
 
-## 📡 CAN Communication Design
+##  CAN Communication Design
 
 ### CAN Receive (Control Commands)
 
